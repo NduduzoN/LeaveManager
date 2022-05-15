@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-LeaveManagerMVC-625B117F-8723-4D26-AFDA-F5B481927568</UserSecretsId>
+    <UserSecretsId>aspnet-LeaveManagerMVC-7F451054-2A81-42E5-A5A3-542EBEB0E5DE</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +13,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Controller\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
